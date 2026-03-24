@@ -113,6 +113,11 @@ h2 {
     color: #f0f6fc;
 }
 
+.section-intro {
+    color: #b1bac4;
+    margin-bottom: 1.5rem;
+}
+
 .research-grid {
     display: grid;
     grid-template-columns: 1fr;
