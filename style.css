@@ -113,6 +113,56 @@ h2 {
     color: #f0f6fc;
 }
 
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.experience-item {
+    padding: 1.5rem;
+    background: #161b22;
+    border: 1px solid #21262d;
+    border-radius: 8px;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.3rem;
+}
+
+.experience-item h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #f0f6fc;
+}
+
+.exp-type {
+    font-weight: 400;
+    color: #6e7681;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.exp-date {
+    font-size: 0.85rem;
+    color: #6e7681;
+    white-space: nowrap;
+}
+
+.exp-role {
+    font-size: 0.9rem;
+    color: #58a6ff;
+    margin-bottom: 0.5rem;
+}
+
+.experience-item p:last-child {
+    color: #8b949e;
+    font-size: 0.95rem;
+}
+
 .section-intro {
     color: #b1bac4;
     margin-bottom: 1.5rem;
