@@ -182,9 +182,6 @@ h2 {
     transition: border-color 0.2s;
 }
 
-.research-card:hover {
-    border-color: #388bfd;
-}
 
 .research-card h3 {
     font-size: 1.05rem;
